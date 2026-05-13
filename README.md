@@ -145,22 +145,29 @@ Recommended phasing: **Nutrition Focus markets 2025–2027**, **Critical Opportu
 ## Repository Structure
 
 ```
-.
+danone-sustainable-nutrition-bi/
+│
 ├── README.md
+├── Danone_Sustainable_Nutrition_BI_Report.pdf
+│
+├── assets/
+│   ├── 01_executive_summary.png
+│   ├── 02_nutrition_crisis.png
+│   ├── 03_dairy_protein.png
+│   ├── 04_agricultural_capacity.png
+│   ├── 05_resource_sustainability.png
+│   └── 06_strategic_matrix.png
+│
 ├── dashboard/
-│   └── sustainable_nutrition_dashboard.twbx   # Packaged Tableau workbook(open in Tableau Desktop / Public / Reader)
+│   └── sustainable_nutrition_dashboard.twbx
+│
 ├── data/
-│   ├── raw/                                   # Original World Bank & FAO exports
-│   ├── processed/                             # Cleaned, merged country-year dataset
-│   └── data_dictionary.md                     # Variable definitions and sources
-├── docs/
-│   ├── calculated_fields.md                   # All 5 indices with formulas, weightings, rationale
-│   ├── data_preparation_notes.md              # Cleaning decisions and join logic
-│   └── methodology.md                         # SDG framework choices & limitations
-├── report/
-│   └── Danone_Sustainable_Nutrition_BI_Report.pdf
-└── assets/
-    └── *.png                                  # Dashboard screenshots used in this README
+│   ├── data_dictionary.md
+│   ├── Danone_SDG_Data_CLEAN.xlsx
+│   └── GDP_Data_Cleaned.xlsx
+│
+└── docs/
+    └── calculated_fields.md
 ```
 
 ---
