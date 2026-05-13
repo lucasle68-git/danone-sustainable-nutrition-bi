@@ -1,6 +1,6 @@
 # Calculated Fields — Formulas, Weightings, Rationale
 
-All indices are normalised to a **0–100 scale** for cross-country comparability. Weightings are not arbitrary — each is grounded in WHO malnutrition frameworks, FAIRR ESG benchmarks, or established development-economics literature (Sachs & Warner 2001 on the resource curse, etc.).
+All indices are normalised to a **0–100 scale** for cross-country comparability. Weightings are not arbitrary, each is grounded in WHO malnutrition frameworks, FAIRR ESG benchmarks, or established development-economics literature (Sachs & Warner 2001 on the resource curse, etc.).
 
 ---
 
@@ -18,11 +18,11 @@ MSI = 0.30 × Undernourishment_norm
 ```
 
 **Rationale:**
-- **Undernourishment (30%)** — primary SDG 2.1 target; weighted highest.
-- **Stunting (25%)** — proxy for irreversible developmental damage in under-5s.
-- **Severe food insecurity (20%)** — multidimensional access measure.
-- **Severe wasting (15%)** — acute malnutrition signal.
-- **Anemia in women (10%)** — hidden hunger and intergenerational transmission.
+- **Undernourishment (30%)**: primary SDG 2.1 target; weighted highest.
+- **Stunting (25%)**: proxy for irreversible developmental damage in under-5s.
+- **Severe food insecurity (20%)**: multidimensional access measure.
+- **Severe wasting (15%)**: acute malnutrition signal.
+- **Anemia in women (10%)**: hidden hunger and intergenerational transmission.
 
 ---
 
@@ -37,8 +37,8 @@ RDR = 0.60 × min(ResourceRents_pct_GDP / 30, 1) × 100
 ```
 
 **Rationale:**
-- **Resource rents (60%)** — extraction dependence; normalised to a 30%-of-GDP threshold where Sachs–Warner "resource curse" effects become severe.
-- **Adjusted net savings (40%, inverted)** — captures capital depletion. Negative savings (countries consuming wealth) score maximum risk; ≥20% (adequate reinvestment) scores zero.
+- **Resource rents (60%)**, extraction dependence; normalised to a 30%-of-GDP threshold where Sachs–Warner "resource curse" effects become severe.
+- **Adjusted net savings (40%, inverted)**, captures capital depletion. Negative savings (countries consuming wealth) score maximum risk; ≥20% (adequate reinvestment) scores zero.
 
 ---
 
@@ -53,8 +53,8 @@ API = 0.50 × CerealYield_normalised
 ```
 
 **Rationale:**
-- **Cereal yield (50%)** — proxies climate suitability and irrigation infrastructure.
-- **Value added per worker (50%)** — proxies mechanisation and cold-chain capacity.
+- **Cereal yield (50%)**: proxies climate suitability and irrigation infrastructure.
+- **Value added per worker (50%)**: proxies mechanisation and cold-chain capacity.
 - Equal weighting: high yield without processing capacity limits scalability; high mechanisation in unsuitable climates faces production constraints.
 
 ---
@@ -65,13 +65,13 @@ API = 0.50 × CerealYield_normalised
 
 **Formula (conceptual):** identical structure to *Resource Dependency Risk* but interpreted at the macroeconomic-strategy level rather than the supply-chain-risk level.
 
-**Rationale:** Higher scores indicate vulnerability to commodity shocks and inadequate economic diversification — both red flags for long-term partnership viability.
+**Rationale:** Higher scores indicate vulnerability to commodity shocks and inadequate economic diversification, both red flags for long-term partnership viability.
 
 ---
 
 ## 5. Sustainable Nutrition Opportunity Index *(primary KPI)*
 
-**Purpose:** The composite the entire dashboard is built around — a single number expressing where Danone should look first.
+**Purpose:** The composite the entire dashboard is built around, a single number expressing where Danone should look first.
 
 **Formula (conceptual):**
 ```
@@ -81,9 +81,9 @@ SNOI = 0.45 × MalnutritionSeverityIndex
 ```
 
 **Rationale:**
-- **Malnutrition Severity (45%)** — anchors selection in social need, aligned to Danone's mission and SDG 2.
-- **Dairy Consumption Gap (30%)** — market-growth headroom.
-- **Sustainability (25%, inverted risk)** — favours diversified economies, ensuring SDG 12 alignment.
+- **Malnutrition Severity (45%)**: anchors selection in social need, aligned to Danone's mission and SDG 2.
+- **Dairy Consumption Gap (30%)**: market-growth headroom.
+- **Sustainability (25%, inverted risk)**: favours diversified economies, ensuring SDG 12 alignment.
 
 A high score = a market where nutritional intervention delivers maximum social impact within commercially and environmentally sustainable boundaries.
 
@@ -94,7 +94,7 @@ A high score = a market where nutritional intervention delivers maximum social i
 Three reasons:
 
 1. **Decision compression.** Executives cannot rank 33 indicators across 35 countries by inspection. A composite forces explicit trade-off articulation.
-2. **Auditable assumptions.** Weights are visible and challengeable — better than implicit ranking heuristics.
+2. **Auditable assumptions.** Weights are visible and challengeable, better than implicit ranking heuristics.
 3. **SDG operationalisation.** SDGs are aspirations until they're metrics. Weighted indices translate framework into action.
 
 **Caveat:** any composite hides information. The dashboard always preserves drill-down to the underlying indicators so that the composite is a *summary view*, not a black box.
