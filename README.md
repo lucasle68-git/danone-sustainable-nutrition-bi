@@ -11,7 +11,7 @@
 
 ---
 
-## 🎯 TL;DR
+## TL;DR
 
 A decision-support dashboard for **Danone's** market-expansion team, framing market selection as a **three-way optimisation** between nutritional need, dairy market gap, and resource sustainability.
 
@@ -20,12 +20,12 @@ A decision-support dashboard for **Danone's** market-expansion team, framing mar
 - **6-page narrative dashboard** taking executives from "where to look" → "why these markets" → "how to prioritise" via a 2×2 strategic matrix.
 - Top-3 priority markets identified: **Tanzania, Senegal, Bangladesh** — quantified through the *Sustainable Nutrition Opportunity Index*.
 
-📊 **[View interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/YOUR-PROFILE)** *(see "Publish" step in setup)*
-📄 **[Read the full analytical report (PDF) →](./report/Danone_Sustainable_Nutrition_BI_Report.pdf)**
+**[View interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/YOUR-PROFILE)** *(see "Publish" step in setup)*
+**[Read the full analytical report (PDF) →](./report/Danone_Sustainable_Nutrition_BI_Report.pdf)**
 
 ---
 
-## 🖼️ Dashboard Walkthrough
+## Dashboard Walkthrough
 
 The six dashboards are built as a deliberate narrative arc — *Where to look → Why → How to prioritise.*
 
@@ -61,7 +61,7 @@ The 2×2 matrix synthesising everything: **Critical Opportunity** (Ethiopia, Nig
 
 ---
 
-## 🧩 The Business Problem
+## The Business Problem
 
 Danone's mission ("One Planet. One Health") sits at a structural tension: the company must grow its emerging-market footprint to address the **150.2 million children under five suffering from stunting globally**, while the dairy industry is simultaneously projected to consume **70% of allowable greenhouse-gas emissions by 2050**.
 
@@ -71,7 +71,7 @@ A naïve expansion strategy — chase the largest nutritional gaps — risks acc
 
 ---
 
-## 🗂️ Data
+## Data
 
 | Source | Indicators | Coverage |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ A naïve expansion strategy — chase the largest nutritional gaps — risks acc
 ### Data Preparation — Highlights
 - **Schema reconciliation:** World Bank arrived in wide format (pivot → long); FAO required the inverse (long → wide for dairy indicators).
 - **Country-name harmonisation:** 7 country labels reconciled across sources.
-- **Null handling:** Missing values left explicit rather than imputed — country-level malnutrition gaps are *systematic*, not random, and imputation would obscure exactly the markets that matter most.
+- **Null handling:** Missing values left explicit rather than imputed, country-level malnutrition gaps are *systematic*, not random, and imputation would obscure exactly the markets that matter most.
 - **Join strategy:** Tableau relationship model (Country Name + ISO3 + Year) preserved 35 countries; an inner-join pre-merge would have dropped coverage to ~25.
 
 ### Honest Data Quality Note
@@ -92,7 +92,7 @@ Overall completeness is **55.8%** (SDG 12: 96%, FAO dairy: 92%, SDG 2 nutrition:
 
 ---
 
-## 🧮 The Five Composite Indices
+## The Five Composite Indices
 
 Each index is a deliberately weighted, 0–100 normalised metric. Full formulas, weightings, and rationale in [`/docs/calculated_fields.md`](./docs/calculated_fields.md).
 
@@ -106,7 +106,7 @@ Each index is a deliberately weighted, 0–100 normalised metric. Full formulas,
 
 ---
 
-## 📈 Key Insights Generated
+## Key Insights Generated
 
 **1. The Distribution Paradox.** India, Pakistan, and Colombia consume >100 kg dairy/capita/year yet show stunting >20%. This is **not** a production problem — it's distribution. Implication: Danone's competitive advantage in these markets is logistics and fortification, not infrastructure.
 
@@ -118,7 +118,7 @@ Each index is a deliberately weighted, 0–100 normalised metric. Full formulas,
 
 ---
 
-## 🧭 Strategic Output — The 2×2 Matrix
+## 🧭 Strategic Output: The 2×2 Matrix
 
 The final dashboard page segments all 35 countries into four playbooks:
 
@@ -133,7 +133,7 @@ Recommended phasing: **Nutrition Focus markets 2025–2027**, **Critical Opportu
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Tableau Desktop** — relationship modelling, calculated fields, dashboard actions, parameter controls
 - **Data sources:** World Bank Open Data API exports, FAOSTAT Food Balances, supplementary GDP
@@ -141,7 +141,7 @@ Recommended phasing: **Nutrition Focus markets 2025–2027**, **Critical Opportu
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -164,7 +164,7 @@ Recommended phasing: **Nutrition Focus markets 2025–2027**, **Critical Opportu
 
 ---
 
-## ▶️ How to Explore
+## How to Explore
 
 **Option 1 — Interactive (recommended):** [Open on Tableau Public](https://public.tableau.com/app/profile/YOUR-PROFILE)
 
@@ -177,7 +177,7 @@ Recommended phasing: **Nutrition Focus markets 2025–2027**, **Critical Opportu
 
 ---
 
-## ⚖️ Ethical & Methodological Reflection
+## Ethical & Methodological Reflection
 
 This is a portfolio piece, not a policy paper — but the report engages seriously with the limits of what BI of this kind can claim. Three honest constraints:
 
@@ -185,18 +185,18 @@ This is a portfolio piece, not a policy paper — but the report engages serious
 2. **The Sustainable Nutrition Opportunity Index has a built-in commercial bias.** Congo DRC scores lower despite higher absolute need, because high sustainability risk acts as a deterrent. This raises a real question about whether composite KPIs adequately serve the "leave no one behind" principle.
 3. **Data collection itself is biased.** World Bank and FAO datasets systematically under-cover marginalised populations. Any production deployment of this framework should integrate qualitative inputs from local NGOs.
 
-Naming these limits is not optional in BI work — it's the difference between a dashboard and a defensible decision tool.
+Naming these limits is not optional in BI work, it's the difference between a dashboard and a defensible decision tool.
 
 ---
 
-## 👤 About
+## About 
 
 Built as part of an MSc Business Intelligence Practice course at the University of Glasgow, Adam Smith Business School. Methodology, indices, dashboard architecture, and strategic recommendations are my own work.
 
 **Open to roles in:** Data Analytics · Business Intelligence · Data Science · Insight & Strategy
 
-- 📫 [LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE)
-- 🐙 [GitHub](https://github.com/lucasle68-git)
+- [LinkedIn](https://www.linkedin.com/in/lucasle68/)
+- [GitHub](https://github.com/lucasle68-git)
 
 ---
 
