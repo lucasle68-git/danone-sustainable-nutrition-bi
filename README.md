@@ -55,7 +55,7 @@ Resource Dependency rankings labelled by resource type (oil-, forest-, gas-, coa
 ![Resource Sustainability](./assets/05_resource_sustainability.png)
 
 ### 6 · The Strategic Connection — *"How do we prioritise?"*
-The 2×2 matrix synthesising everything: **Critical Opportunity** (Ethiopia, Nigeria — red), **Nutrition Focus** (Bangladesh, India, Pakistan, Indonesia, Tanzania — orange), **Sustainable Transition** (Saudi Arabia, UAE — yellow), **Premium Markets** (USA, China — green). The Priority Ranking Table below surfaces every underlying metric for drill-down.
+The 2×2 matrix synthesising everything: **Critical Opportunity** (Ethiopia, Nigeria — red), **Nutrition Focus** (Bangladesh, India, Pakistan, Indonesia, Tanzania — orange), **Sustainable Transition** (Saudi Arabia, UAE - yellow), **Premium Markets** (USA, China — green). The Priority Ranking Table below surfaces every underlying metric for drill-down.
 
 ![Strategic Matrix](./assets/06_strategic_matrix.png)
 
