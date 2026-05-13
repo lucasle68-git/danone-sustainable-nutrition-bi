@@ -79,7 +79,7 @@ A naïve expansion strategy, chase the largest nutritional gaps, risks accelerat
 | FAO — Food Balances Statistics | 4 (dairy supply & protein) | Same |
 | World Bank — GDP & macro indicators | 3 | Same |
 
-**Geographic spread:** 9 regions — Europe (6), Sub-Saharan Africa (6), Southeast Asia (5), MENA (5), Latin America (4), East Asia (3), South Asia (3), North America (2), Oceania (1).
+**Geographic spread:** 9 regions including Europe (6), Sub-Saharan Africa (6), Southeast Asia (5), MENA (5), Latin America (4), East Asia (3), South Asia (3), North America (2), Oceania (1).
 
 ### Data Preparation & Highlights
 - **Schema reconciliation:** World Bank arrived in wide format (pivot → long); FAO required the inverse (long → wide for dairy indicators).
