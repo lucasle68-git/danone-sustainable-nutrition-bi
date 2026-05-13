@@ -119,7 +119,7 @@ Each index is a deliberately weighted, 0–100 normalised metric. Full formulas,
 
 ---
 
-## 🧭 Strategic Output: The 2×2 Matrix
+## Strategic Output: The 2×2 Matrix
 
 The final dashboard page segments all 35 countries into four playbooks:
 
