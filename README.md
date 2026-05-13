@@ -27,7 +27,7 @@ A decision-support dashboard for **Danone's** market-expansion team, framing mar
 
 ## Dashboard Walkthrough
 
-The six dashboards are built as a deliberate narrative arc — *Where to look → Why → How to prioritise.*
+The six dashboards are built as a deliberate narrative arc from *Where to look → Why → How to prioritise.*
 
 ### 1 · Executive Summary — *"Where should we look?"*
 The Sustainable Nutrition Opportunity Index plotted on a world map, four headline KPIs, and the Top 10 priority markets ranked. **Tanzania (53.6), Senegal (52.9), Bangladesh (52.5)** emerge as the top expansion candidates.
@@ -65,7 +65,7 @@ The 2×2 matrix synthesising everything: **Critical Opportunity** (Ethiopia, Nig
 
 Danone's mission ("One Planet. One Health") sits at a structural tension: the company must grow its emerging-market footprint to address the **150.2 million children under five suffering from stunting globally**, while the dairy industry is simultaneously projected to consume **70% of allowable greenhouse-gas emissions by 2050**.
 
-A naïve expansion strategy — chase the largest nutritional gaps — risks accelerating environmental damage in fragile economies. A purely ESG-driven strategy risks abandoning the populations the SDGs were designed to serve. The strategic question this project answers:
+A naïve expansion strategy, chase the largest nutritional gaps, risks accelerating environmental damage in fragile economies. A purely ESG-driven strategy risks abandoning the populations the SDGs were designed to serve. The strategic question this project answers:
 
 > *How can Danone systematically identify markets where nutritional intervention delivers maximum social impact within commercially and environmentally sustainable boundaries?*
 
@@ -81,7 +81,7 @@ A naïve expansion strategy — chase the largest nutritional gaps — risks acc
 
 **Geographic spread:** 9 regions — Europe (6), Sub-Saharan Africa (6), Southeast Asia (5), MENA (5), Latin America (4), East Asia (3), South Asia (3), North America (2), Oceania (1).
 
-### Data Preparation — Highlights
+### Data Preparation & Highlights
 - **Schema reconciliation:** World Bank arrived in wide format (pivot → long); FAO required the inverse (long → wide for dairy indicators).
 - **Country-name harmonisation:** 7 country labels reconciled across sources.
 - **Null handling:** Missing values left explicit rather than imputed, country-level malnutrition gaps are *systematic*, not random, and imputation would obscure exactly the markets that matter most.
