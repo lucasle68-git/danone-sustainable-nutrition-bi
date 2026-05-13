@@ -109,11 +109,11 @@ Each index is a deliberately weighted, 0–100 normalised metric. Full formulas,
 
 ## Key Insights Generated
 
-**1. The Distribution Paradox.** India, Pakistan, and Colombia consume >100 kg dairy/capita/year yet show stunting >20%. This is **not** a production problem — it's distribution. Implication: Danone's competitive advantage in these markets is logistics and fortification, not infrastructure.
+**1. The Distribution Paradox.** India, Pakistan, and Colombia consume >100 kg dairy/capita/year yet show stunting >20%. This is **not** a production problem, it's distribution. Implication: Danone's competitive advantage in these markets is logistics and fortification, not infrastructure.
 
 **2. The Governance Paradox.** Brazil and Turkey have weak agricultural productivity but *low* stunting. Programmes like *Bolsa Família* and Turkey's Social Assistance Foundation compensate for ag-sector inefficiency. Implication: country selection cannot rely on ag-capacity alone; institutional infrastructure matters more.
 
-**3. The Gender Distribution Asymmetry.** Male stunting risk runs higher in most countries (Nigeria +6.27pp, Ethiopia +6.15pp) — but Vietnam and Malaysia show *reversed* patterns. Suggests intra-household food allocation is culturally, not biologically, driven.
+**3. The Gender Distribution Asymmetry.** Male stunting risk runs higher in most countries (Nigeria +6.27pp, Ethiopia +6.15pp) but Vietnam and Malaysia show *reversed* patterns. Suggests intra-household food allocation is culturally, not biologically, driven.
 
 **4. The Sustainability/Opportunity Trade-off.** The highest-need markets (Congo DRC, Ethiopia, Nigeria) overlap heavily with the highest sustainability risk. Bangladesh is the strategic anomaly: high need, *positive* adjusted net savings, viable for scale.
 
