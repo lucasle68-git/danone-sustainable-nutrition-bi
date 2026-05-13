@@ -18,7 +18,7 @@ A decision-support dashboard for **Danone's** market-expansion team, framing mar
 - **180 country-year observations** across 36 variables, integrated from World Bank SDG and FAO Food Balances databases.
 - **5 custom composite indices** built in Tableau (calc fields documented in `/docs/calculated_fields.md`).
 - **6-page narrative dashboard** taking executives from "where to look" → "why these markets" → "how to prioritise" via a 2×2 strategic matrix.
-- Top-3 priority markets identified: **Tanzania, Senegal, Bangladesh** — quantified through the *Sustainable Nutrition Opportunity Index*.
+- Top-3 priority markets identified: **Tanzania, Senegal, Bangladesh**, quantified through the *Sustainable Nutrition Opportunity Index*.
 
 **[View interactive dashboard on Tableau Public →](https://public.tableau.com/app/profile/YOUR-PROFILE)** *(see "Publish" step in setup)*
 **[Read the full analytical report (PDF) →](./report/Danone_Sustainable_Nutrition_BI_Report.pdf)**
