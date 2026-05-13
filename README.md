@@ -174,7 +174,7 @@ danone-sustainable-nutrition-bi/
 
 ## How to Explore
 
-**Option 1 — Interactive (recommended):** [Open on Tableau Public](https://public.tableau.com/app/profile/YOUR-PROFILE)
+**Option 1 — Interactive (recommended):** [Open on Tableau Public]([https://public.tableau.com/app/profile/YOUR-PROFILE](https://public.tableau.com/views/SustainableNutritionMarketIntelligenceDanoneCaseStudy/1_ExecutiveSummary?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
 **Option 2 — Local:**
 1. Install [Tableau Desktop](https://www.tableau.com/products/desktop) (free 14-day trial) or [Tableau Reader](https://www.tableau.com/products/reader) (free, viewing only).
