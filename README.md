@@ -187,7 +187,7 @@ danone-sustainable-nutrition-bi/
 
 ## Ethical & Methodological Reflection
 
-This is a portfolio piece, not a policy paper — but the report engages seriously with the limits of what BI of this kind can claim. Three honest constraints:
+This is a portfolio piece, not a policy paper but the report engages seriously with the limits of what BI of this kind can claim. Three honest constraints:
 
 1. **Country-level aggregation hides within-country inequality.** India's national stunting figure obscures stark urban-rural divides.
 2. **The Sustainable Nutrition Opportunity Index has a built-in commercial bias.** Congo DRC scores lower despite higher absolute need, because high sustainability risk acts as a deterrent. This raises a real question about whether composite KPIs adequately serve the "leave no one behind" principle.
