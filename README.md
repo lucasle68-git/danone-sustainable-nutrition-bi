@@ -21,6 +21,7 @@ A decision-support dashboard for **Danone's** market-expansion team, framing mar
 - Top-3 priority markets identified: **Tanzania, Senegal, Bangladesh**, quantified through the *Sustainable Nutrition Opportunity Index*.
 
 **[View interactive dashboard on Tableau Public →](https://public.tableau.com/views/SustainableNutritionMarketIntelligenceDanoneCaseStudy/1_ExecutiveSummary?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)** 
+
 **[Read the full analytical report (PDF) →](./Danone_Sustainable_Nutrition_BI_Report.pdf)**
 
 ---
