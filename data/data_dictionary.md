@@ -1,6 +1,6 @@
 # Data Dictionary
 
-Reference for the two datasets powering the dashboard, both stored in `/data/processed/`:
+Reference for the two datasets powering the dashboard, both stored in `/data/`:
 
 1. **`Danone_SDG_Data_CLEAN.xlsx`** — SDG indicators + FAO dairy metrics
 2. **`GDP_Data_Cleaned.xlsx`** — GDP growth, GDP per capita, tax revenue
@@ -22,6 +22,8 @@ For per-column data types, non-null counts, and sample values, see the **`Data D
 | Country coverage | 35 | 35 (same set) |
 | Year coverage | 2016 – 2020 (Egypt: 2011 – 2020) | 2016 – 2020 |
 | Source(s) | World Bank SDG Database; FAO Food Balances | World Bank Open Data (macro indicators) |
+
+Country names and ISO3 codes match File 1 exactly ("Congo, Dem. Rep." / COD and "Egypt" / EGY), so all 35 countries join.
 
 Row-count difference (180 vs 175): Egypt has 10 years of SDG data in File 1 but only 5 years in File 2, so 5 extra Egypt rows in File 1 are unmatched on the macro side. These rows are retained via outer-join logic in Tableau rather than dropped.
 
@@ -81,7 +83,7 @@ Single sheet, 6 columns.
 | `Country Code` | text | 100% | ISO 3166-1 alpha-3. |
 | `Year` | int | 100% | 2016 – 2020. |
 | `GDP growth (annual %)` | float | 100% | World Bank indicator `NY.GDP.MKTP.KD.ZG`. |
-| `GDP per capita` | float | 100% | Current US$ per person; World Bank indicator `NY.GDP.PCAP.CD`. |
+| `GDP per capita` | float | 100% | PPP, current international $ per person; World Bank indicator `NY.GDP.PCAP.PP.CD`. |
 | `Tax revenue (% of GDP)` | float | 82.3% | World Bank indicator `GC.TAX.TOTL.GD.ZS` — gaps are countries that don't publish consolidated tax revenue annually. |
 
 ---
@@ -155,4 +157,4 @@ All sources are open and reproducible.
 | 5 · Resource Sustainability | All resource-rent columns, Adjusted net savings, Milk Food Supply. | — |
 | 6 · Strategic Connection | Composite indices + Total resource rents. | GDP per capita (for tier context in the Priority Ranking Table). |
 
-The five composite indices built on top of File 1 (Malnutrition Severity Index, Sustainable Nutrition Opportunity Index, etc.) are documented in [`/docs/calculated_fields.md`](../docs/calculated_fields.md).
+The composite indices built on top of File 1 (Malnutrition Severity Index, Sustainable Nutrition Opportunity Index, etc.) are documented in [`/docs/calculated_fields.md`](../docs/calculated_fields.md).
