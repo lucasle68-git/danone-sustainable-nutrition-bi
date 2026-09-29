@@ -7,7 +7,7 @@
 ![Scope](https://img.shields.io/badge/Scope-35%20countries%20×%205%20years-555)
 ![SDGs](https://img.shields.io/badge/Aligned-SDG%202%20%26%20SDG%2012-009B48)
 
-**[▶ Open the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/lucas.le1261/viz/SustainableNutritionMarketIntelligenceDanoneCaseStudy/1_ExecutiveSummary)** · **[Read the full report (PDF)](./Danone_Sustainable_Nutrition_BI_Report.pdf)**
+**[▶ Open the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/lucas.le1261/viz/SustainableNutritionMarketIntelligenceDanoneCaseStudy/1_ExecutiveSummary)** · **[View the 12-slide summary (PDF)](./Danone_BI_Case_Study_Slides.pdf)**
 
 ![Executive Summary dashboard](./assets/01_executive_summary.png)
 
@@ -132,13 +132,15 @@ Full formulas and rationale: [`docs/calculated_fields.md`](./docs/calculated_fie
 
 1. **Interactive (recommended):** [Tableau Public](https://public.tableau.com/app/profile/lucas.le1261/viz/SustainableNutritionMarketIntelligenceDanoneCaseStudy/1_ExecutiveSummary). Start on *1. Executive Summary* and move through the tabs.
 2. **Local:** open `dashboard/sustainable_nutrition_dashboard.twbx` in Tableau Desktop or the free Tableau Public app.
-3. **Read-only:** the [full report (PDF)](./Danone_Sustainable_Nutrition_BI_Report.pdf) walks through every insight.
+3. **Quick read (3 minutes):** the [12-slide summary](./Danone_BI_Case_Study_Slides.pdf) covers the question, method, insights and recommendation.
+4. **Deep dive:** the [full 20-page report](./Danone_Sustainable_Nutrition_BI_Report.pdf) (graded A) walks through every insight and formula.
 
 ## Repository Structure
 
 ```
 danone-sustainable-nutrition-bi/
 ├── README.md
+├── Danone_BI_Case_Study_Slides.pdf             # 12-slide summary
 ├── Danone_Sustainable_Nutrition_BI_Report.pdf   # full analytical report
 ├── assets/                                      # dashboard screenshots
 ├── dashboard/
